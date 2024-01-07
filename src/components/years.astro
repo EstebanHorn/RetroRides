@@ -1,0 +1,93 @@
+---
+// Supports weights 100-900
+import "@fontsource-variable/tourney";
+
+const { autos } = Astro.props;
+
+const { car } = Astro.params;
+
+const getLinkStyles = (year, currentYear) => {
+    // Si el año actual es igual al año del enlace, devolver estilos adicionales
+    return String(year) === String(currentYear)
+        ? {
+              color: "red", // Color rojo como ejemplo
+          }
+        : {
+              color: "black",
+          };
+};
+
+const autosOrdenados = autos.sort(
+    (a, b) => parseInt(a.anio) - parseInt(b.anio),
+);
+
+
+---
+
+<div class="container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+        ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path
+            d="M182.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z"
+        ></path></svg
+    >
+
+    <section>
+        {
+            autosOrdenados.map((auto) => (
+                <a
+                    href={`/cars/${auto.anio}`}
+                    
+                    style={getLinkStyles(auto.anio, car)}
+                >
+                    <h2>{auto.anio}</h2>
+                </a>
+            ))
+        }
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+        ><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path
+            d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z"
+        ></path></svg
+    >
+</div>
+
+
+
+<style>
+    section {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        height: 70vh;
+        border-radius: 10%;
+    }
+
+    section::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    h2 {
+        font-family: "Tourney Variable", sans-serif;
+        font-size: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+    }
+
+    svg {
+        width: 20%;
+        height: auto;
+        animation:;
+    }
+</style>

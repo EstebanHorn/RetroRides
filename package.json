@@ -10,6 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/tourney": "^5.0.19",
+    "@fontsource/courier-prime": "^5.0.18",
+    "@fontsource/nova-square": "^5.0.18",
+    "@fontsource/space-mono": "^5.0.18",
     "astro": "^4.0.9"
   }
 }

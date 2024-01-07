@@ -1,0 +1,290 @@
+{
+  "Autos": [
+    {
+      "nombre": "Benz Patent-Motorwagen",
+      "anio": 1886,
+      "caracteristicas": {
+        "motor": "Motor a gasolina de 1 cilindro",
+        "transmision": "Transmisión por engranajes",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis de madera",
+        "carroceria": "Carrocería de madera y lona"
+      }
+    },
+    {
+      "nombre": "Ford T",
+      "anio": 1908,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de dos velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis de acero",
+        "carroceria": "Carrocería de acero"
+      }
+    },
+    {
+      "nombre": "Buccialli",
+      "anio": 1910,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis de acero",
+        "carroceria": "Carrocería deportiva"
+      }
+    },
+    {
+      "nombre": "Mercedes-Benz 260 D",
+      "anio": 1936,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea diésel",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis de acero",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Volkswagen Escarabajo",
+      "anio": 1938,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros opuestos",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis de plataforma",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Saab 92",
+      "anio": 1949,
+      "caracteristicas": {
+        "motor": "Motor de 2 cilindros en línea",
+        "transmision": "Transmisión manual de 3 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería cupé"
+      }
+    },
+    {
+      "nombre": "Mercedes Ponton",
+      "anio": 1953,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Citroën DS",
+      "anio": 1955,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Volvo Amazon",
+      "anio": 1956,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "NSU Ro80",
+      "anio": 1967,
+      "caracteristicas": {
+        "motor": "Motor de rotor Wankel",
+        "transmision": "Transmisión automática de 3 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Saab 900",
+      "anio": 1978,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 5 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería hatchback"
+      }
+    },
+    {
+      "nombre": "Alfa Romeo 164 TD",
+      "anio": 1987,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea diésel",
+        "transmision": "Transmisión manual de 5 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Fiat Regata City",
+      "anio": 1983,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 5 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Citroën Xantia Activa",
+      "anio": 1993,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 5 velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Triumph Dolomite Sprint",
+      "anio": 1973,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Plymouth Valiant 1",
+      "anio": 1970,
+      "caracteristicas": {
+        "motor": "Motor de seis cilindros en línea",
+        "transmision": "Transmisión automática de tres velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Chevrolet Impala",
+      "anio": 1958,
+      "caracteristicas": {
+        "motor": "Motor V8",
+        "transmision": "Transmisión automática de dos velocidades Powerglide",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis de largueros",
+        "carroceria": "Carrocería cupé o sedán"
+      }
+    },
+    {
+      "nombre": "Lancia Aurelia",
+      "anio": 1950,
+      "caracteristicas": {
+        "motor": "Motor V6",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería cupé"
+      }
+    },
+    {
+      "nombre": "Mercedes-Benz W126",
+      "anio": 1979,
+      "caracteristicas": {
+        "motor": "Motor de 6 cilindros en línea",
+        "transmision": "Transmisión automática de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Toyota Prius",
+      "anio": 1997,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros en línea y motor eléctrico",
+        "transmision": "Transmisión automática de tipo CVT",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería hatchback"
+      }
+    },
+    {
+      "nombre": "Karmann Ghia Type 34",
+      "anio": 1961,
+      "caracteristicas": {
+        "motor": "Motor de 4 cilindros opuestos",
+        "transmision": "Transmisión manual de 4 velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería cupé"
+      }
+    },
+     {
+      "nombre": "Lamborghini Miura",
+      "anio": 1966,
+      "caracteristicas": {
+        "motor": "Motor V12",
+        "transmision": "Transmisión manual de cinco velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería cupé deportivo"
+      }
+    },
+    {
+      "nombre": "Ford F150",
+      "anio": 1975,
+      "caracteristicas": {
+        "motor": "Varía según el modelo y año",
+        "transmision": "Varía según el modelo y año",
+        "traccion": "Tracción trasera o en las cuatro ruedas",
+        "chasis": "Chasis de largueros",
+        "carroceria": "Varía según el modelo y año"
+      }
+    },
+    {
+      "nombre": "SEAT 600",
+      "anio": 1957,
+      "caracteristicas": {
+        "motor": "Motor de cuatro cilindros",
+        "transmision": "Transmisión manual de cuatro velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Citroën 2CV",
+      "anio": 1948,
+      "caracteristicas": {
+        "motor": "Motor de dos cilindros opuestos",
+        "transmision": "Transmisión manual de cuatro velocidades",
+        "traccion": "Tracción delantera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería sedán"
+      }
+    },
+    {
+      "nombre": "Porsche 911",
+      "anio": 1963,
+      "caracteristicas": {
+        "motor": "Motor de seis cilindros opuestos",
+        "transmision": "Transmisión manual de cinco velocidades",
+        "traccion": "Tracción trasera",
+        "chasis": "Chasis monocasco",
+        "carroceria": "Carrocería cupé"
+      }
+    }
+  ]
+}
