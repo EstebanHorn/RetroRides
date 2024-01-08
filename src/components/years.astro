@@ -85,6 +85,25 @@ const autosOrdenados = autos.sort(
         width: 15%;
     }
 
+    @media screen and (max-width: 1000px) {
+        .container{
+            flex-direction: row;
+            width: 90vw;
+        }
+
+        section{
+            flex-direction: row;
+            overflow-y: auto;
+            overflow-x: scroll;
+            height: auto;
+            gap: 15px;
+        }
+        
+        svg{
+            visibility: hidden;
+        }
+    }
+
     svg {
         width: 20%;
         height: auto;

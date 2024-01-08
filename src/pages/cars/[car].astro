@@ -11,7 +11,6 @@ const Auto = obtenerDatosPorAnio(car);
 <Layout title={`RetroRides ${car}`}>
 	<main>
 		<div class="title">
-			<img src={carshield.src} />
 			<h2>
 				{Auto?.nombre}
 			</h2>
@@ -68,6 +67,8 @@ const Auto = obtenerDatosPorAnio(car);
 		width: 50%;
 	}
 
+
+
 	section {
 		display: flex;
 		justify-content: space-between;
@@ -117,4 +118,24 @@ const Auto = obtenerDatosPorAnio(car);
 			transform: scale(1) translateX(0);
 		}
 	}
+
+	@media screen and (max-width: 1000px) {
+		ul {
+			font-size: 15px;
+			width: 70%;
+		}
+
+		section {
+			flex-direction: column;
+		}
+
+		.container{
+			width: 80%;
+		}
+
+		h2{
+			font-size: 35px;
+		}
+	}
+
 </style>
